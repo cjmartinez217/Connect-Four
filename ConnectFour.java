@@ -3,6 +3,7 @@ public class ConnectFour
 {
     public static void main(String[] args)
     {
+        System.out.println("I added this line!");
         Scanner input = new Scanner(System.in);
         int height, length, turn = 0, row, col;
         char player1 = 'x', player2 = 'o';
